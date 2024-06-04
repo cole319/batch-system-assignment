@@ -23,10 +23,10 @@ export default function Navbar() {
           <Image src={"/Vector.png"} height={29} width={65} alt="uifry logo" />
         </div>
         <ul className="flex justify-center items-center gap-4">
-          <li className="font-bold text-[#FF5555]">Home</li>
-          <li>About Us</li>
-          <li>Pricing</li>
-          <li>Features</li>
+          <li className="cursor-pointer font-bold text-[#FF5555]">Home</li>
+          <li className="cursor-pointer">About Us</li>
+          <li className="cursor-pointer">Pricing</li>
+          <li className="cursor-pointer">Features</li>
         </ul>
       </div>
       <div className="pt-10 lg:pt-0">
