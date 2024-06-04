@@ -38,12 +38,26 @@ export default function Features() {
           alt="iPhone Image1"
           className="hidden lg:block lg:absolute lg:top-[-1rem] lg:left-[2rem] lg:z-2"
         />
+        <Image
+          src={"/StarBg.png"}
+          height={48}
+          width={48}
+          alt="Start Bg"
+          className="hidden lg:block absolute -left-4 -bottom-28"
+        />
       </div>
 
       <div className="relative w-full lg:w-[50%] py-10">
         <h1 className="text-lg font-normal text-[#FF5555] pb-2 text-center lg:text-start">
           FEATURES
         </h1>
+        <Image
+          src={"/StarBg.png"}
+          height={48}
+          width={48}
+          alt="Start Bg"
+          className="hidden lg:block absolute right-20 top-6"
+        />
         <h1 className="text-5xl font-bold pb-8 text-center lg:text-start">
           Uifry Premium
         </h1>

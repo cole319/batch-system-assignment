@@ -4,6 +4,13 @@ import Image from "next/image";
 export default function DownloadApp() {
   return (
     <section id="downloadapp" className="bg-[#000000] flex rounded-md relative">
+      <Image
+        src={"/StarBgWhite.png"}
+        height={48}
+        width={48}
+        alt="Star Bg"
+        className="hidden lg:block absolute left-[16rem] top-[2rem]"
+      />
       <div>
         <Image
           src={"/EllipseWhite.png"}
@@ -72,6 +79,13 @@ export default function DownloadApp() {
           className="absolute lg:top-[-16rem] lg:left-[56rem] lg:z-10 hidden lg:block"
         />
       </div>
+      <Image
+        src={"/StarBgWhite.png"}
+        height={60}
+        width={60}
+        alt="Star Bg"
+        className="hidden lg:block absolute right-[36rem] bottom-[4rem]"
+      />
       <div className="relative">
         <Image
           src={"/iPhoneDownloadApp.png"}
@@ -81,6 +95,20 @@ export default function DownloadApp() {
           className="z-40 relative hidden lg:block"
         />
       </div>
+      <Image
+        src={"/StarBg.png"}
+        height={48}
+        width={48}
+        alt="Star Bg"
+        className="hidden lg:block absolute -left-[6rem] bottom-[8rem]"
+      />
+      <Image
+        src={"/StarBg.png"}
+        height={48}
+        width={48}
+        alt="Star Bg"
+        className="hidden lg:block absolute -right-[8rem] -top-[8rem]"
+      />
     </section>
   );
 }

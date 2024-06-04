@@ -12,8 +12,22 @@ export default function Hero() {
       className="py-[4rem] flex h-screen text-center lg:text-left"
     >
       <div className="relative w-full lg:w-[50%]">
+        <Image
+          src={"/StarBg.png"}
+          height={60}
+          width={60}
+          alt="Start Bg"
+          className="hidden lg:block absolute right-2 top-16"
+        />
         <div className="absolute top-[4rem] left-[10rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
         <div className="absolute top-[5rem] left-[9rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
+        <Image
+          src={"/StarBg.png"}
+          height={48}
+          width={48}
+          alt="Start Bg"
+          className="hidden lg:block absolute -left-16 -top-16"
+        />
         <div className="py-[2rem]">
           <h1 className="text-6xl font-bold py-[1rem]">
             Make The best Financial Decisions
@@ -41,6 +55,13 @@ export default function Hero() {
           </div>
         </div>
         <div className="relative">
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute left-2 top-16"
+          />
           <Image
             src={"/HeroGroup.png"}
             height={357}

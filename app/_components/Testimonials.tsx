@@ -1,9 +1,6 @@
 import React from "react";
 import Image from "next/image";
 
-//internal imports
-import Ellipses from "./Ellipses";
-
 export default function Testimonials() {
   return (
     <section
@@ -20,6 +17,13 @@ export default function Testimonials() {
         <div className="w-full lg:w-[50%] relative h-[36rem] lg:h-0">
           <div className="absolute top-[4rem] left-[6rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
           <div className="absolute top-[5rem] left-[12rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute left-28 -top-24"
+          />
           <Image
             src={"/QuoteCircledIcon.png"}
             height={80}
@@ -84,9 +88,15 @@ export default function Testimonials() {
             className="absolute top-[-1rem] left-[2rem] z-2"
           />
 
-          {/* <Ellipses /> */}
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute right-[3rem] top-[32rem]"
+          />
         </div>
-        <div className="lg:w-[50%] lg:py-[6rem] lg:px-[3rem] flex flex-col items-center lg:items-start">
+        <div className="relative lg:w-[50%] lg:py-[6rem] lg:px-[3rem] flex flex-col items-center lg:items-start">
           <h1 className="text-3xl font-bold pb-2 text-center lg:text-left">
             The Best Financial Accounting App Ever!
           </h1>
@@ -106,6 +116,13 @@ export default function Testimonials() {
             className="pb-3"
           />
           <h1 className="font-semibold">Nick Jonas</h1>
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute right-2 bottom-10"
+          />
         </div>
       </div>
     </section>

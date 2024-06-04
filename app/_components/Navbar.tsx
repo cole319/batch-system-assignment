@@ -8,8 +8,15 @@ export default function Navbar() {
   return (
     <section
       id="navbar"
-      className="flex flex-col lg:flex-row justify-between items-center"
+      className="flex flex-col lg:flex-row justify-between items-center relative"
     >
+      <Image
+        src={"/StarBg.png"}
+        height={30}
+        width={30}
+        alt="Start Bg"
+        className="hidden lg:block absolute -right-[8rem] top-32"
+      />
       <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-10">
         <div className="flex justify-center items-center gap-2">
           <Image src={"/Frame.png"} height={34} width={34} alt="uifry logo" />

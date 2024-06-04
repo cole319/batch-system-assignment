@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-export default function Ellipses() {
+function Ellipses() {
   return (
     <>
       <Image

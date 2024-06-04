@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 export default function FAQ() {
   return (
@@ -8,6 +9,13 @@ export default function FAQ() {
         <h1 className="font-bold text-5xl pb-8">Frequently Asked Questions</h1>
       </div>
       <div className="grid grid-cols-2 gap-4 relative">
+        <Image
+          src={"/StarBg.png"}
+          height={48}
+          width={48}
+          alt="Start Bg"
+          className="hidden lg:block absolute -left-28 top-[10rem]"
+        />
         <div className="bg-[#FF5555] p-4 text-[#FFFFFF] rounded-md">
           <h1 className="text-2xl font-bold">
             The Best Financial Accounting App Ever!

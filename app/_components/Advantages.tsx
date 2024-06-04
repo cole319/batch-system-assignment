@@ -33,6 +33,13 @@ export default function Advantages() {
           </>
         </div>
         <div className="lg:w-[50%] relative">
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute -left-4 -bottom-28"
+          />
           <div className="absolute top-[4rem] left-[6rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
           <div className="absolute top-[5rem] left-[5rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
           <Image
@@ -70,10 +77,24 @@ export default function Advantages() {
             alt="iPhone Image1"
             className="hidden lg:block lg:absolute lg:top-[-1rem] lg:left-[7rem] lg:z-2"
           />
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute right-2 bottom-28"
+          />
         </div>
       </div>
       <div className="flex flex-col lg:flex-row">
         <div className="w-full lg:w-[50%] relative hidden lg:block">
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute -right-44 -bottom-28"
+          />
           <div className="absolute top-[4rem] left-[14rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
           <div className="absolute top-[5rem] left-[20rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
           <Image
@@ -110,6 +131,13 @@ export default function Advantages() {
             width={459}
             alt="iPhone Image1"
             className="hidden lg:block lg:absolute lg:top-[-1rem] lg:left-[2rem] lg:z-2"
+          />
+          <Image
+            src={"/StarBg.png"}
+            height={48}
+            width={48}
+            alt="Start Bg"
+            className="hidden lg:block absolute left-8 -top-24"
           />
         </div>
         <div className="lg:w-[50%] lg:py-32 pb-20 lg:pb-0">
