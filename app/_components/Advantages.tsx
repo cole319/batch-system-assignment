@@ -33,6 +33,8 @@ export default function Advantages() {
           </>
         </div>
         <div className="lg:w-[50%] relative">
+          <div className="absolute top-[4rem] left-[6rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
+          <div className="absolute top-[5rem] left-[5rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
           <Image
             src={"/iPhoneAdvantages.png"}
             height={504}
@@ -72,6 +74,8 @@ export default function Advantages() {
       </div>
       <div className="flex flex-col lg:flex-row">
         <div className="w-full lg:w-[50%] relative hidden lg:block">
+          <div className="absolute top-[4rem] left-[14rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+          <div className="absolute top-[5rem] left-[20rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
           <Image
             src={"/iPhoneFeatures.png"}
             height={504}
@@ -131,6 +135,8 @@ export default function Advantages() {
         </div>
         <div className="lg:hidden flex justify-center">
           <div className="w-full lg:w-[50%] relative ">
+            <div className="absolute top-[4rem] left-[10rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+            <div className="absolute top-[5rem] left-[16rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
             <Image
               src={"/iPhoneFeatures.png"}
               height={504}

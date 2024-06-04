@@ -11,13 +11,15 @@ export default function Testimonials() {
       className="pt-[8rem] pb-[4rem] lg:pt-[20rem] relative"
     >
       <div className="flex justify-center text-center">
-        <div className="lg:w-1/3 w-full">
+        <div className="lg:w-3/5 w-full">
           <h1 className="text-lg pb-2">TESTIMONIAL</h1>
           <h1 className="text-5xl font-bold">What Our Users Say About Us?</h1>
         </div>
       </div>
       <div className="flex lg:flex-row flex-col py-[4rem]">
         <div className="w-full lg:w-[50%] relative h-[36rem] lg:h-0">
+          <div className="absolute top-[4rem] left-[6rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+          <div className="absolute top-[5rem] left-[12rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
           <Image
             src={"/QuoteCircledIcon.png"}
             height={80}

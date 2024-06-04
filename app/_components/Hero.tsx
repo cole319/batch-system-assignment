@@ -11,7 +11,9 @@ export default function Hero() {
       id="hero"
       className="py-[4rem] flex h-screen text-center lg:text-left"
     >
-      <div className="w-full lg:w-[50%]">
+      <div className="relative w-full lg:w-[50%]">
+        <div className="absolute top-[4rem] left-[10rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
+        <div className="absolute top-[5rem] left-[9rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
         <div className="py-[2rem]">
           <h1 className="text-6xl font-bold py-[1rem]">
             Make The best Financial Decisions
@@ -91,6 +93,8 @@ export default function Hero() {
           alt="iPhone Image1"
           className="absolute top-[3rem] left-[8rem] z-2"
         />
+        <div className="absolute top-[24rem] left-[10rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+        <div className="absolute top-[25rem] left-[9rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
       </div>
     </section>
   );

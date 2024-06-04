@@ -27,7 +27,9 @@ export default function DownloadApp() {
           className="absolute lg:top-[16rem] lg:left-[-2rem] lg:z-10 hidden lg:block"
         />
       </div>
-      <div className="lg:w-[60%] py-[8rem] px-[1rem] lg:pl-[5rem] lg:py-[10rem] lg:z-20 flex flex-col items-center lg:items-start gap-10 lg:gap-0">
+      <div className="relative lg:w-[60%] py-[8rem] px-[1rem] lg:pl-[5rem] lg:py-[10rem] lg:z-20 flex flex-col items-center lg:items-start gap-10 lg:gap-0">
+        <div className="absolute top-[16rem] left-[52rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+        <div className="absolute top-[20rem] left-[56rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
         <h1 className="text-4xl text-[#FFFFFF] font-bold pb-3 text-center lg:text-start">
           Ready To Get Started?
         </h1>
@@ -70,7 +72,7 @@ export default function DownloadApp() {
           className="absolute lg:top-[-16rem] lg:left-[56rem] lg:z-10 hidden lg:block"
         />
       </div>
-      <div>
+      <div className="relative">
         <Image
           src={"/iPhoneDownloadApp.png"}
           height={459}

@@ -8,6 +8,8 @@ export default function Features() {
       className="h-screen py-[8rem] flex flex-col lg:flex-row"
     >
       <div className="hidden lg:block lg:w-[50%] absolute lg:relative">
+        <div className="absolute top-[4rem] left-[2rem] h-[200px] w-[400px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-80"></div>
+        <div className="absolute top-[5rem] left-[3rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
         <Image
           src={"/iPhoneFeatures.png"}
           height={504}
@@ -38,7 +40,7 @@ export default function Features() {
         />
       </div>
 
-      <div className="w-full lg:w-[50%] py-10">
+      <div className="relative w-full lg:w-[50%] py-10">
         <h1 className="text-lg font-normal text-[#FF5555] pb-2 text-center lg:text-start">
           FEATURES
         </h1>
@@ -100,6 +102,8 @@ export default function Features() {
             </p>
           </>
         </div>
+        <div className="absolute top-[4rem] left-[25rem] h-[200px] w-[200px] bg-[#fd3535] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
+        <div className="absolute top-[5rem] left-[20rem] h-[120px] w-[120px] bg-[#fadf46] rounded-full mix-blend-multiply filter blur-2xl opacity-60"></div>
       </div>
     </section>
   );

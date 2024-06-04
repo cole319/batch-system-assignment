@@ -12,7 +12,7 @@ import Footer from "./_components/Footer";
 
 export default function Home() {
   return (
-    <div className="lg:px-[10rem] lg:py-[4rem] overflow-x-hidden py-[2rem] px-[4rem]">
+    <div className="lg:px-[10rem] lg:py-[3rem] overflow-x-hidden py-[2rem] px-[4rem]">
       <Navbar />
       <Hero />
       <Features />
