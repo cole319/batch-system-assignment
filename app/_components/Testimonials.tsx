@@ -6,15 +6,18 @@ import Ellipses from "./Ellipses";
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="pt-[8rem] relative">
+    <section
+      id="testimonials"
+      className="pt-[8rem] pb-[4rem] lg:pt-[20rem] relative"
+    >
       <div className="flex justify-center text-center">
-        <div className="w-1/3">
+        <div className="lg:w-1/3 w-full">
           <h1 className="text-lg pb-2">TESTIMONIAL</h1>
           <h1 className="text-5xl font-bold">What Our Users Say About Us?</h1>
         </div>
       </div>
-      <div className="flex py-[4rem]">
-        <div className="w-[50%] relative">
+      <div className="flex lg:flex-row flex-col py-[4rem]">
+        <div className="w-full lg:w-[50%] relative h-[36rem] lg:h-0">
           <Image
             src={"/QuoteCircledIcon.png"}
             height={80}
@@ -81,11 +84,11 @@ export default function Testimonials() {
 
           {/* <Ellipses /> */}
         </div>
-        <div className="w-[50%] py-[6rem] px-[3rem]">
-          <h1 className="text-3xl font-bold pb-2">
+        <div className="lg:w-[50%] lg:py-[6rem] lg:px-[3rem] flex flex-col items-center lg:items-start">
+          <h1 className="text-3xl font-bold pb-2 text-center lg:text-left">
             The Best Financial Accounting App Ever!
           </h1>
-          <p className="text-neutral-500 pb-3">
+          <p className="text-neutral-500 pb-3 text-center lg:text-left">
             "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ea dolore
             consectetur saepe mollitia debitis molestias voluptates non pariatur
             vitae. Quae omnis cupiditate reiciendis rerum maiores natus quos

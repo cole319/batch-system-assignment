@@ -3,44 +3,51 @@ import Image from "next/image";
 
 export default function Features() {
   return (
-    <section id="features" className="h-screen py-[8rem] flex">
-      <div className="w-[50%] relative">
+    <section
+      id="features"
+      className="h-screen py-[8rem] flex flex-col lg:flex-row"
+    >
+      <div className="hidden lg:block lg:w-[50%] absolute lg:relative">
         <Image
           src={"/iPhoneFeatures.png"}
           height={504}
           width={249}
           alt="iPhone Image1"
-          className="absolute top-[-0.80rem] left-[6rem] z-10"
+          className="lg:absolute lg:top-[-0.80rem] lg:left-[6rem] lg:z-10"
         />
         <Image
           src={"/Ellipse.png"}
           height={661}
           width={459}
           alt="iPhone Image1"
-          className="absolute top-[3rem] left-[-2rem] z-2"
+          className="hidden lg:block lg:absolute lg:top-[3rem] lg:left-[-2rem] lg:z-2"
         />
         <Image
           src={"/Ellipse.png"}
           height={661}
           width={459}
           alt="iPhone Image1"
-          className="absolute top-[1rem] left-0 z-2"
+          className="hidden lg:block lg:absolute lg:top-[1rem] lg:left-0 lg:z-2"
         />
         <Image
           src={"/Ellipse.png"}
           height={661}
           width={459}
           alt="iPhone Image1"
-          className="absolute top-[-1rem] left-[2rem] z-2"
+          className="hidden lg:block lg:absolute lg:top-[-1rem] lg:left-[2rem] lg:z-2"
         />
       </div>
 
-      <div className="w-[50%] py-10">
-        <h1 className="text-lg font-normal text-[#FF5555] pb-2">FEATURES</h1>
-        <h1 className="text-5xl font-bold pb-8">Uifry Premium</h1>
-        <div>
+      <div className="w-full lg:w-[50%] py-10">
+        <h1 className="text-lg font-normal text-[#FF5555] pb-2 text-center lg:text-start">
+          FEATURES
+        </h1>
+        <h1 className="text-5xl font-bold pb-8 text-center lg:text-start">
+          Uifry Premium
+        </h1>
+        <div className="text-center lg:text-start">
           <>
-            <div className="flex items-center gap-2 pb-2">
+            <div className="flex items-center gap-2 pb-2 justify-center lg:justify-start">
               <Image
                 src={"/StarIcon.png"}
                 height={24}
@@ -58,7 +65,7 @@ export default function Features() {
           </>
           <br />
           <>
-            <div className="flex items-center gap-2 pb-2">
+            <div className="flex items-center gap-2 pb-2 justify-center lg:justify-start">
               <Image
                 src={"/HexagonIcon.png"}
                 height={24}
@@ -76,7 +83,7 @@ export default function Features() {
           </>
           <br />
           <>
-            <div className="flex items-center gap-2 pb-2">
+            <div className="flex items-center gap-2 pb-2 justify-center lg:justify-start">
               <Image
                 src={"/CubeIcon.png"}
                 height={24}

@@ -6,8 +6,11 @@ import Button from "./Button";
 
 export default function Navbar() {
   return (
-    <section id="navbar" className="flex justify-between items-center ">
-      <div className="flex justify-center items-center gap-10">
+    <section
+      id="navbar"
+      className="flex flex-col lg:flex-row justify-between items-center"
+    >
+      <div className="flex flex-col lg:flex-row justify-center items-center gap-4 lg:gap-10">
         <div className="flex justify-center items-center gap-2">
           <Image src={"/Frame.png"} height={34} width={34} alt="uifry logo" />
           <Image src={"/Vector.png"} height={29} width={65} alt="uifry logo" />
@@ -19,7 +22,7 @@ export default function Navbar() {
           <li>Features</li>
         </ul>
       </div>
-      <div>
+      <div className="pt-10 lg:pt-0">
         {/* <button className="bg-[#000000] text-[#FFFFFF] py-[10px] px-[30px] rounded-sm">
           Download
         </button> */}

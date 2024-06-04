@@ -7,8 +7,11 @@ import Button from "./Button";
 
 export default function Hero() {
   return (
-    <section id="hero" className="py-[4rem] flex h-screen">
-      <div className="w-[50%]">
+    <section
+      id="hero"
+      className="py-[4rem] flex h-screen text-center lg:text-left"
+    >
+      <div className="w-full lg:w-[50%]">
         <div className="py-[2rem]">
           <h1 className="text-6xl font-bold py-[1rem]">
             Make The best Financial Decisions
@@ -17,7 +20,7 @@ export default function Hero() {
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus
             nostrum ducimus et autem odit itaque, cumque
           </p>
-          <div className="flex justify-start gap-8 items-center py-[1rem]">
+          <div className="flex flex-col lg:flex-row justify-start gap-2 lg:gap-8 items-center py-[1rem]">
             <Button
               btnName="Get Started"
               icon={
@@ -29,9 +32,9 @@ export default function Hero() {
                 />
               }
             />
-            <button className="flex justify-center items-center gap-2">
+            <button className="flex justify-center items-center gap-2 hover:bg-[#000000] px-[30px] py-[10px] rounded-sm border-[2px] border-transparent hover:border-[2px] hover:border-[#000000] hover:text-[#FFFFFF] lg:w-fit w-[20rem] duration-300">
               <IoPlayCircleOutline className="text-2xl" />
-              Watch Video
+              <h1>Watch Video</h1>
             </button>
           </div>
         </div>
@@ -45,7 +48,7 @@ export default function Hero() {
           />
         </div>
       </div>
-      <div className="w-[50%] relative ">
+      <div className="hidden lg:block lg:w-[50%] relative ">
         <Image
           src={"/iPhoneHero1.png"}
           height={546}

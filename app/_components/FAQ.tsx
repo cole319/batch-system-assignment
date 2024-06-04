@@ -2,8 +2,8 @@ import React from "react";
 
 export default function FAQ() {
   return (
-    <section id="faq" className="pb-40">
-      <div className="w-[50%]">
+    <section id="faq" className="pb-20 lg:pb-40">
+      <div className="w-full lg:w-[50%] text-center lg:text-left pb-[2rem] lg:pb-0">
         <h1 className="text-[#FF5555] pb-2">FAQ</h1>
         <h1 className="font-bold text-5xl pb-8">Frequently Asked Questions</h1>
       </div>
