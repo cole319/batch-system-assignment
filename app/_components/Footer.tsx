@@ -84,6 +84,7 @@ export default function Footer() {
       </div>
       <div className="py-4 text-center border-t-2">
         Copyright 2022 Uifry.Com All Rights Reserved
+        <p>Changes Approved by Friendly Streetfight Organiser</p>
       </div>
     </section>
   );
